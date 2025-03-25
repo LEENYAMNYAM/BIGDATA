@@ -1,0 +1,20 @@
+diff a/실습/250313_webcrawuling_starbucks_project.ipynb b/실습/250313_webcrawuling_starbucks_project.ipynb	(rejected hunks)
+@@ -69,14 +69,10 @@
+    "metadata": {},
+    "outputs": [
+     {
+-     "ename": "AttributeError",
+-     "evalue": "'list' object has no attribute 'text'",
+-     "output_type": "error",
+-     "traceback": [
+-      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+-      "\u001b[1;31mAttributeError\u001b[0m                            Traceback (most recent call last)",
+-      "Cell \u001b[1;32mIn[23], line 33\u001b[0m\n\u001b[0;32m     31\u001b[0m \u001b[38;5;66;03m#mCSB_3_container > ul\u001b[39;00m\n\u001b[0;32m     32\u001b[0m store_list \u001b[38;5;241m=\u001b[39m driver\u001b[38;5;241m.\u001b[39mfind_elements(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mcss selector\u001b[39m\u001b[38;5;124m\"\u001b[39m, \u001b[38;5;124m\"\u001b[39m\u001b[38;5;124m#mCSB_3_container > ul\u001b[39m\u001b[38;5;124m\"\u001b[39m)\n\u001b[1;32m---> 33\u001b[0m \u001b[38;5;28mprint\u001b[39m(store_list\u001b[38;5;241m.\u001b[39mtext)\n",
+-      "\u001b[1;31mAttributeError\u001b[0m: 'list' object has no attribute 'text'"
++     "name": "stdout",
++     "output_type": "stream",
++     "text": [
++      "[]\n"
+      ]
+     }
+    ],
